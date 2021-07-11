@@ -8,9 +8,10 @@
 
     // You can put your own content here: 
 
-    // const homeStartingContent = "Your home Content"
-    // const aboutContent = "Your about Content"
-    // const contactContent = "Your contact info"
+       // const homeStartingContent = "Your home Content"
+       // const aboutContent = "Your about Content"
+       // const contactContent = "Your contact info"
+
 
     const homeStartingContent = "Lacus vel facilisis volutpat est velit egestas dui id ornare. Semper auctor neque vitae tempus quam. Sit amet cursus sit amet dictum sit amet justo. Viverra tellus in hac .";
     const aboutContent = "Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Non di.";
@@ -90,10 +91,10 @@
 //888*********--> Or It can be Done using a For loop as well************888
 
   // for (var i = 0; i < posts.length; i++) {
-  //           if(posts[i].postTitle === posturl){
+  //        if(posts[i].postTitle === posturl){
   //             console.log("Match Found !");
-  //           }
-  //     }
+  //         }
+  //   }
 
     app.get("/about", function (req, res) {
 
