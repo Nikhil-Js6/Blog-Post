@@ -15,7 +15,7 @@
     app.use(bodyParser.urlencoded({extended: true}));
     app.use(express.static("public"));
 
-       mongoose.connect("mongodb+srv://process.env.ADMIN_DBNAME:process.env.MONGO_KEY@cluster0.paw24.mongodb.net/", {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false});
+       mongoose.connect("mongodb+srv://process.env.ADMIN_DBNAME:process.env.MONGO_KEY@cluster0.paw24.mongodb.net/DBName", {useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false});
 
        const postSchema = {
              title: String,
