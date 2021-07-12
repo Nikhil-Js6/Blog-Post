@@ -143,6 +143,9 @@ input[required] {
     width: 220px;
   }
 }
+
+/* Media Queries : */
+
 @media (max-width:672px){
   .button{
     width: 195px;
