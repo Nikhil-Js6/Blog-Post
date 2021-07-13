@@ -1,0 +1,66 @@
+<%- include("partials/header") -%>
+
+<h1>Contact Us</h1>
+
+
+<div class="alert alert-success" role="alert">Thank you for getting in touch!</div>
+  ​<br>
+
+<br>
+
+
+<form class="form-horizontal" action="/contact" method="post">
+
+   <div>
+
+         <label>Name</label>
+         <br>
+         <input class="form-control" type="text" name="userName" value="" placeholder="Name" autofocus autocomplete="off">
+   </div>
+<br>
+   <div>
+
+         <label>E-mail</label>
+         <br>
+         <input class="form-control" type="email" name="userEmail" value="" placeholder="E-mail" required autocomplete="off">
+         <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+   </div>
+<br>
+   <div>
+
+         <label>Phone</label>
+         <br>
+         <input class="form-control" type="number" name="userPhone" value="" placeholder="Phone" required>
+   </div>
+<br>
+   <div>
+
+         <label>Message</label>
+         <br>
+         <textarea class="form-control" name="userMessage" rows="5" cols="30" placeholder="Your message"></textarea>
+   </div>
+<br>
+  <input type="checkbox"  value="" required> <p class="checkbox">I accept the <span class="name">terms of use</span> and <span class="name">Privacy Policy</span>.</p>
+  <div class="button-field">
+       <div class="row">
+          <div class="col-md">
+             <button class="button btn btn-info btn-lg" id="sbutton" type="sumbit" name="button">Submit</button>
+          </div>
+          <div class="col-md">
+             <a class="button btn btn-lg" id="ebutton" href="mailto:nikhilpahal2001@gmail.com">Mail Us</a>
+          </div>
+       </div>
+      </div>
+</form>
+
+<div class="socials">
+  <a href="https://www.facebook.com"><i class="social-icon fa-2x fab fa-facebook-square"></i></a>
+  <a href="https://www.twitter.com"><i class="social-icon fa-2x fab fa-twitter"></i></a>
+  <a href="https://www.instagram.com"><i class="social-icon fa-2x fab fa-instagram"></i></a>
+  <i class="social-icon fa-2x fab fa-whatsapp"></i>
+  <p class="Copyright"><span class="name">Daily Journal</span> © Copyright 2020 .</p>
+
+</div>
+<br>
+<br>
+<%- include("partials/footer") -%>
